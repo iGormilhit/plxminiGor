@@ -445,7 +445,7 @@ article img {
 article footer {
 	background-color: inherit;
 	color: inherit;
-	font-size: 0.9em;
+	font-size: 75%;
 	margin-bottom: 50px;
 	padding: 0;
 	text-align: inherit;
