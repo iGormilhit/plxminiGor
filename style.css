@@ -524,6 +524,7 @@ article footer a:hover {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	text-align: center;
+	font-size: 75%;
 }
 
 #pagination span,
@@ -532,10 +533,11 @@ article footer a:hover {
 	margin: 0;
 }
 
+/* permet d'afficher les premières lettre en majuscule : je ne l'utilise pas
 #pagination span:first-letter,
 #pagination a:first-letter {
 	text-transform: uppercase;
-}
+} */
 
 
 
@@ -641,6 +643,46 @@ input[type=reset]:hover {
 	width: auto;
 }
 
+/* La page id-libre.org : l'accueil  */
+
+#accueil {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	max-width: 40em;
+}
+
+.entree {
+	margin: 1em;
+	width: 8em;
+	line-height: 8em;
+	overflow: hidden;
+	text-align: center;
+	background-color: rgba(34, 34, 34, .8);
+	color: rgba(231, 231, 231, .7);
+	font-size: 1.3em;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 3px;
+}
+
+.entree:hover  {
+	text-decoration: none;
+	color: rgba(231, 231, 231, 1);
+	background-color: rgba(34, 34, 34, .5);
+}
+
+.entree a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: rgba(231, 231, 231, .7);
+}
+
+.entree:hover a {
+	text-decoration: none;
+}
+
 /* ---------- RESPONSIVE DESIGN ---------- */
 
 @media screen and (max-width:768px) {
@@ -691,7 +733,7 @@ input[type=reset]:hover {
 	select,
 	textarea {
 		max-width: 100%;
-}
+	}
 
 	aside {
 		margin-top: 50px;
@@ -700,6 +742,18 @@ input[type=reset]:hover {
 	
 	aside footer {
 	position: relative;
+	}
+
+	#accueil {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 1em;
+	}
+
+	.entree {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 }
