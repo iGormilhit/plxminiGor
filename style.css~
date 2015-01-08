@@ -1,22 +1,22 @@
  /* ---------- Fonts ---------- */
 
 @font-face {
-  font-family: "Tex Gyre Pagella";
-  src: url("fonts/texgyrepagella-regular.otf");
+  font-family: "Cantarell";
+  src: url("fonts/cantarell/Cantarell-Regular.ttf");
 }
 @font-face {
-  font-family: "Tex Gyre Pagella bold";
-  src: url("fonts/texgyrepagella-bold.otf");
+  font-family: "Cantarell";
+  src: url("fonts/cantarell/Cantarell-Bold.ttf");
   font-weight: bold;
 }
 @font-face {
-  font-family: "Tex Gyre Pagella italic";
-  src: url("fonts/texgyrepagella-italic.otf");
+  font-family: "Cantarell";
+  src: url("fonts/cantarell/Cantarell-Oblique.ttf");
   font-style: italic;
 }
 @font-face {
-  font-family: "Tex Gyre Pagella bold italic";
-  src: url("fonts/texgyrepagella-bolditalic.otf");
+  font-family: "Cantarell";
+  src: url("fonts/cantarell/Cantarell-BoldOblique.ttf");
   font-style: italic;
   font-weight: bold;
 }
@@ -49,8 +49,9 @@ html {
 }
 
 body {
+	background: url("img/bg.png") repeat scroll center top transparent;
 	color: rgba(0, 0, 0, 0.8);
-	font-family: "Tex Gyre Pagella", serif;
+	font-family: "Cantarell", sans-serif;
 	line-height: 1.5;
 	margin: 0;
 }
@@ -110,6 +111,7 @@ samp,
 kbd {
 	font-family: monospace, serif;
 	font-size: 1em;
+	padding: 5px 10px;
 	white-space: pre-wrap;
 }
 
@@ -235,7 +237,7 @@ th, td {
 /* ---------- aside ---------- */
 
 aside {
-	background-color: rgba(103,83,108,1);
+	background-color: #222;
 	font-size: 85%;
 	display: inline-block;
 	
@@ -243,27 +245,26 @@ aside {
 	top: 0px;
 	bottom: 0px;
 	position: fixed;
-	width: 210px;
 }
 
 aside header h1 a {
-	color: rgba(238, 2015, 244, 0.8);
+	color: rgba(231, 231, 231, 0.8);
 }
 
 aside header h1 a:hover {
-	color: rgba(238, 2015, 244, 1);
+	color: rgba(231, 231, 231, 1);
 }
 
 aside header h2, aside footer p, aside footer small {
-	color: rgba(238, 2015, 244, 0.6);
+	color: rgba(231, 231, 231, 0.6);
 }
 
 aside small {
 	font-size: .7em;
 }
 
-aside header h1, aside header h2 {
-	line-height: 1em;
+aside header h1, h2 {
+	line-height: .5em;
 }
 
 aside footer {
@@ -327,7 +328,7 @@ nav li {
 }
 
 nav li a {
-	color: rgba(238, 2015, 244, 0.7);
+	color: rgba(231, 231, 231, 0.7);
 	font-size: 1.3em;
 }
 
@@ -337,7 +338,7 @@ nav li a:hover, nav li a.active, nav a:hover {
 }
 
 nav .rss {
-	color: rgba(238, 2015, 244, 0.7);
+	color: rgba(231, 231, 231, 0.7);
 	/* background-image: url(img/rss.png); */
 	background-repeat: no-repeat;
 	vertical-align: middle;
@@ -350,7 +351,7 @@ nav .rss {
 
 footer {
 	clear: both;
-	color: rgba(238, 2015, 244, 0.7);
+	color: rgba(231, 231, 231, 0.7);
 	margin: 50px 0;
 	padding: 50px 0;
 	text-align: center;
@@ -358,7 +359,7 @@ footer {
 }
 
 footer p {
-	margin: 0;
+	margin: 1;
 }
 
 footer a {
@@ -405,22 +406,9 @@ section {
 .full-width {
 	width:80%;
 	padding-left: 3em;
-	padding-right: 3em;
-}
-
-.full-width p {
-	hyphens: auto;
-	-moz-hyphens: auto;
-	-ms-hyphens: auto;
-	-webkit-hyphens: auto;
 }
 
 article h1,
-article h2,
-article h3,
-article h4,
-article h5,
-article h6,
 article h1 a {
 	color: rgba(0, 0, 0, 0.7);
 	font-weight: bold;
