@@ -109,8 +109,8 @@ code,
 pre,
 samp,
 kbd {
-	font-family: monospace, serif;
-	font-size: 1em;
+	font-family: monospace, sans-serif;
+	font-size: 100%;
 	white-space: pre-wrap;
 }
 
@@ -652,12 +652,13 @@ input[type=reset]:hover {
 @media screen and (max-width:768px) {
 
 	html {
-		font-size: 90%;
+		font-size: 100%;
 	}
 	
 	.full-width {
 		width: 100%;
 		padding-left: 0;
+		padding-right: 0;
 	}
 	
 	.list-titles {
