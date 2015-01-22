@@ -248,15 +248,15 @@ aside {
 }
 
 aside header h1 a {
-	color: rgba(238, 2015, 244, 0.8);
+	color: rgba(238, 215, 244, 0.8);
 }
 
 aside header h1 a:hover {
-	color: rgba(238, 2015, 244, 1);
+	color: rgba(238, 215, 244, 1);
 }
 
 aside header h2, aside footer p, aside footer small {
-	color: rgba(238, 2015, 244, 0.6);
+	color: rgba(238, 215, 244, 0.6);
 }
 
 aside small {
@@ -328,7 +328,7 @@ nav li {
 }
 
 nav li a {
-	color: rgba(238, 2015, 244, 0.7);
+	color: rgba(238, 215, 244, 0.7);
 	font-size: 1.3em;
 }
 
@@ -338,7 +338,7 @@ nav li a:hover, nav li a.active, nav a:hover {
 }
 
 nav .rss {
-	color: rgba(238, 2015, 244, 0.7);
+	color: rgba(238, 215, 244, 0.7);
 	/* background-image: url(img/rss.png); */
 	background-repeat: no-repeat;
 	vertical-align: middle;
@@ -351,7 +351,7 @@ nav .rss {
 
 footer {
 	clear: both;
-	color: rgba(238, 2015, 244, 0.7);
+	color: rgba(238, 215, 244, 0.7);
 	margin: 50px 0;
 	padding: 50px 0;
 	text-align: center;

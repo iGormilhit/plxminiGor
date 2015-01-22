@@ -19,7 +19,7 @@ $LANG = array(
 
 # footer.php
 'POWERED_BY'			=> 'Généré par',
-'PLUXML_DESCRIPTION'	=> 'Blog ou Cms sans base de données',
+'PLUXML_DESCRIPTION'	=> 'Blog ou CMS sans base de données',
 'IN'					=> 'en',
 'ADMINISTRATION'		=> 'Administration',
 'GOTO_TOP'				=> 'Remonter en haut de page',
