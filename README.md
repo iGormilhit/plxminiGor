@@ -9,3 +9,11 @@ Il n'est pas vraiment responsive, mais s'adapte à la taille des écrans, avec p
 **Le style de la barre de recherche** se modifie directement dans la feuille de style du plugin [plxMySearch](https://github.com/Pluxopolis/plxMySearch). Je l'ai fait en observant la barre de recherche de [hoa.ro](http://hoa.ro/).
 
 Tout amélioration est bienvenue.
+
+## TODO
+
+Dans les choses que j'aimerais bien améliorer :
+
+   * l'apparence des champs pour les commentaires
+   * escamoter la partie commentaires dans un bouton
+   * pour les écrans de petites tailles, escamoter le "header" dans un bouton de menu"
