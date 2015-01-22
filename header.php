@@ -44,7 +44,8 @@
 			<small>
 				<?php $plxShow->lang('POWERED_BY') ?> <a href="http://www.pluxml.org" title="<?php $plxShow->lang('PLUXML_DESCRIPTION') ?>">PluXml</a>
 				<?php $plxShow->lang('IN') ?> <?php $plxShow->chrono(); ?><br> 
-				<?php $plxShow->httpEncoding() ?>
+				<?php $plxShow->httpEncoding() ?> <br>
+				Thème : <a href="https://github.com/iGormilhit/plxminiGor" title="le thème sur github">miniGor</a>
 			</small>
 
 		</div>
