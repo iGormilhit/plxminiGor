@@ -6,4 +6,6 @@ C'est une adaptation du thème par défaut de PluXml, avec des modifications ins
 
 Il n'est pas vraiment responsive, mais s'adapte à la taille des écrans, avec plus ou moins de bonheur.
 
+**Le style de la barre de recherche** se modifie directement dans la feuille de style du plugin [plxMySearch](https://github.com/Pluxopolis/plxMySearch). Je l'ai fait en observant la barre de recherche de [hoa.ro](http://hoa.ro/).
+
 Tout amélioration est bienvenue.
