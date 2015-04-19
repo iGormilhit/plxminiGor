@@ -1,26 +1,4 @@
- /* ---------- Fonts ---------- */
-
-@font-face {
-  font-family: "Tex Gyre Pagella";
-  src: url("fonts/texgyrepagella-regular.otf");
-}
-@font-face {
-  font-family: "Tex Gyre Pagella bold";
-  src: url("fonts/texgyrepagella-bold.otf");
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Tex Gyre Pagella italic";
-  src: url("fonts/texgyrepagella-italic.otf");
-  font-style: italic;
-}
-@font-face {
-  font-family: "Tex Gyre Pagella bold italic";
-  src: url("fonts/texgyrepagella-bolditalic.otf");
-  font-style: italic;
-  font-weight: bold;
-}
-
+@import url('fonts/fonts.css');
 
 /* ---------- GENERAL STYLES ---------- */
 
@@ -46,12 +24,12 @@ video {
 }
 
 html {
-	font-size: 120%;
+	font-size: 110%;
 }
 
 body {
 	color: rgba(0, 0, 0, 0.8);
-	font-family: "Tex Gyre Pagella", serif;
+	font-family: "merriweatherlight", serif;
 	line-height: 1.5;
 	margin: 0;
 }
@@ -264,7 +242,8 @@ aside small {
 }
 
 aside header h1, aside header h2 {
-	line-height: 1em;
+	line-height: .8em;
+	font-style: italic;
 }
 
 aside footer {

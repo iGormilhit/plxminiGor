@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'merriweatherlight';
+    src: url('merriweather_light-webfont.eot');
+    src: url('merriweather_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('merriweather_light-webfont.woff2') format('woff2'),
+         url('merriweather_light-webfont.woff') format('woff'),
+         url('merriweather_light-webfont.ttf') format('truetype'),
+         url('merriweather_light-webfont.svg#merriweather_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'merriweatherlight';
+    src: url('merriweather-lightitalic-webfont.eot');
+    src: url('merriweather-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('merriweather-lightitalic-webfont.woff2') format('woff2'),
+         url('merriweather-lightitalic-webfont.woff') format('woff'),
+         url('merriweather-lightitalic-webfont.ttf') format('truetype'),
+         url('merriweather-lightitalic-webfont.svg#merriweatherlight_italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
