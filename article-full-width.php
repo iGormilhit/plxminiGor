@@ -20,7 +20,7 @@
 
 				<footer>
 					<p>
-						<a href="http://id-libre.org/iGor_milhit" title="mon ePortfolio"><?php $plxShow->artAuthor() ?></a>, le 
+						<a href="http://igor.milhit.ch" title="mon ePortfolio"><?php $plxShow->artAuthor() ?></a>, le 
 						<?php $plxShow->artDate('#num_year(4)-#num_month-#num_day'); ?> -
 						<?php $plxShow->lang('CLASSIFIED_IN') ?> : <?php $plxShow->artCat(); ?> -
 						<?php $plxShow->lang('TAGS') ?> : <?php $plxShow->artTags(); ?>
