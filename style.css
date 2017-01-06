@@ -117,7 +117,12 @@ img {
 }
 
 figure {
-	margin: 0;
+	margin: 2em;
+}
+
+figcaption {
+    font-size: 80%;
+    text-align: center;
 }
 
 hr {
