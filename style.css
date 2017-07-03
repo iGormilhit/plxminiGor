@@ -70,12 +70,20 @@ a:hover {
 
 ol,
 ul {
-	padding-left: 0;
+	padding-left: .4em;
+}
+
+ol, ul > ol, ul {
+    padding-left: .2em;
 }
 
 dd,
 li {
-	margin-left: 20px;
+	margin-left: 1em;
+}
+
+ul > ul > li {
+    margin-left: 2em;
 }
 
 mark {
@@ -87,9 +95,13 @@ code,
 pre,
 samp,
 kbd {
-	font-family: monospace, sans-serif;
-	font-size: 100%;
+	font-family: Inconsolata, monospace, sans-serif;
+	font-size: 90%;
 	white-space: pre-wrap;
+    background-color: rgba(238,215,244,0.8);
+    color: rgba(103,83,108,1);
+    padding: .2em;
+    border-radius: 3px;
 }
 
 sub,
